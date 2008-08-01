@@ -1,8 +1,8 @@
 #include "pluginfactory.h"
 #include "plugins/formplugin.h"
+#include "plugins/videoplugin.h"
 #include <qurl.h>
 #include <qstring.h>
-#include <qdebug.h>
 
 PluginFactory::PluginFactory(QObject *parent)
     : QWebPluginFactory(parent)
@@ -16,10 +16,19 @@ QObject *PluginFactory::create(const QString &mimeType, const QUrl &url,
     Q_UNUSED(url);
 
     if (mimeType == QString::fromLatin1("application/x-qt-form")) {
-        QString form = argumentValues[argumentNames.indexOf(QString::fromLatin1("form"))];
-        QString script = argumentValues[argumentNames.indexOf(QString::fromLatin1("script"))];
-        qDebug() << "PluginFactory::create() Form:" << form<< "script:" << script;
+        QString form, script;
+        if (argumentNames.contains(QString::fromLatin1("form")))
+            form = argumentValues[argumentNames.indexOf(QString::fromLatin1("form"))];
+        if (argumentNames.contains(QString::fromLatin1("script")))
+            script = argumentValues[argumentNames.indexOf(QString::fromLatin1("script"))];
+
         return new FormPlugin(form, script);
+    } else if (mimeType == QString::fromLatin1("application/x-qt-form")) {
+        QString video;
+        if (argumentNames.contains(QString::fromLatin1("video")))
+            video = argumentValues[argumentNames.indexOf(QString::fromLatin1("video"))];
+
+        return new VideoPlugin(video);
     }
     return 0;
 }

@@ -11,7 +11,6 @@ FormPlugin::FormPlugin(const QString &formUrl, const QString &scriptUrl, QWidget
     , m_formReply(0), m_scriptReply(0), m_form(0), m_script(0), m_finalized(false)
 {
     QNetworkAccessManager *netAccessManager = new QNetworkAccessManager(this);
-    qDebug() << "FormPlugin::FormPlugin() Form:" << formUrl << "script:" << scriptUrl;
 
     if (!formUrl.isEmpty()) {
         m_formReply = netAccessManager->get(QNetworkRequest(QUrl(formUrl)));
