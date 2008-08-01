@@ -70,6 +70,7 @@
 #include "tabwidget.h"
 #include "webview.h"
 #include "bookmarks.h"
+#include "pluginfactory.h"
 
 #include <qbuffer.h>
 #include <qclipboard.h>
@@ -93,6 +94,7 @@ WebPage::WebPage(QObject *parent)
     setNetworkAccessManager(BrowserApplication::networkAccessManager());
     connect(this, SIGNAL(unsupportedContent(QNetworkReply *)),
             this, SLOT(handleUnsupportedContent(QNetworkReply *)));
+    setPluginFactory(new PluginFactory);
 }
 
 BrowserMainWindow *WebPage::mainWindow()
@@ -162,6 +164,7 @@ QWebPage *WebPage::createWindow(QWebPage::WebWindowType type)
 }
 
 #if !defined(QT_NO_UITOOLS)
+#include <QtUiTools>
 QObject *WebPage::createPlugin(const QString &classId, const QUrl &url, const QStringList &paramNames, const QStringList &paramValues)
 {
     Q_UNUSED(url);

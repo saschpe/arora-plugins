@@ -1,6 +1,7 @@
 CONFIG += qt warn_on
-contains(QT_BUILD_PARTS, tools): CONFIG += uitools
-else : DEFINES += QT_NO_UITOOLS
+#contains(QT_BUILD_PARTS, tools): CONFIG += uitools
+#else : DEFINES += QT_NO_UITOOLS
+CONFIG += uitools
 
 win32 : Debug : CONFIG += console
 
@@ -12,7 +13,7 @@ UI_DIR = .ui
 MOC_DIR = .moc
 OBJECTS_DIR = .obj
 
-QT += webkit network
+QT += webkit network script
 
 GITVERSION=$$system(git log -n1 --pretty=format:%h)
 GITCHANGENUMBER=$$system(git log --pretty=format:%h | wc -l)
@@ -56,7 +57,8 @@ HEADERS += \
     webactionmapper.h \
     webview.h \
     webviewsearch.h \
-    xbel.h
+    xbel.h \
+    pluginfactory.h
 
 SOURCES += \
     aboutdialog.cpp \
@@ -80,8 +82,10 @@ SOURCES += \
     webactionmapper.cpp \
     webview.cpp \
     webviewsearch.cpp \
-    xbel.cpp
+    xbel.cpp \
+    pluginfactory.cpp
 
+include(plugins/plugins.pri)
 include(utils/utils.pri)
 
 RESOURCES += data/data.qrc \
