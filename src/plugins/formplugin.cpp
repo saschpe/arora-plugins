@@ -47,12 +47,9 @@ void FormPlugin::finalize()
     if (finalized || !m_form)
         return;
 
-    qDebug() << "Evaluate script, show form";
-
     QScriptValue ctor = m_scriptEngine.evaluate(m_script);
     QScriptValue ui = m_scriptEngine.newQObject(m_form, QScriptEngine::ScriptOwnership);
     QScriptValue calc = ctor.construct(QScriptValueList() << ui);
-    //QScriptValue inst = ctor.call(m_form);
 
     finalized = true;
 }

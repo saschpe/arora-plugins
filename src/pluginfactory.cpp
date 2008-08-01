@@ -1,6 +1,7 @@
 #include "pluginfactory.h"
 #include "plugins/formplugin.h"
 #include <qurl.h>
+#include <qstring.h>
 
 PluginFactory::PluginFactory(QObject *parent)
     : QWebPluginFactory(parent)
@@ -13,9 +14,9 @@ QObject *PluginFactory::create(const QString &mimeType, const QUrl &url,
 {
     Q_UNUSED(url);
 
-    if (mimeType == "application/x-qt-form") {
-        QString form= argumentValues[argumentNames.indexOf("form")];
-        QString script= argumentValues[argumentNames.indexOf("script")];
+    if (mimeType == QString::fromLatin1("application/x-qt-form")) {
+        QString form = argumentValues[argumentNames.indexOf(QString::fromLatin1("form"))];
+        QString script = argumentValues[argumentNames.indexOf(QString::fromLatin1("script"))];
         return new FormPlugin(form, script);
     }
     return 0;
@@ -23,16 +24,20 @@ QObject *PluginFactory::create(const QString &mimeType, const QUrl &url,
 
 QList<QWebPluginFactory::Plugin> PluginFactory::plugins() const
 {
-    QList<Plugin> list;
+    MimeType formMimeType;
+    formMimeType.name = QString::fromLatin1("application/x-qt-form");
+    formMimeType.description = QString::fromLatin1("application/x-qt-form");
 
-    //TODO: Generate corect plugin/mimetype list
-    /*Plugin formPlugin;
     QList<MimeType> formPluginMimeTypes;
-    formPluginMimeTypes.append("application/x-qt-form");
-    formPlugin.description = "";
+    formPluginMimeTypes.append(formMimeType);
+
+    Plugin formPlugin;
+    formPlugin.name = QString::fromLatin1("Qt UI form plugin");
     formPlugin.mimeTypes = formPluginMimeTypes;
-    formPlugin.name="Qt Ui-Form Plugin";
-    list.append(formPlugin);*/
+
+    QList<Plugin> list;
+    //TODO: Find out what to enter here, plugin breaks if next line is uncommented:
+    //list.append(formPlugin);
 
     return list;
 }
