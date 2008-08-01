@@ -25,8 +25,8 @@ private:
     QNetworkReply *m_formReply;
     QNetworkReply *m_scriptReply;
     QWidget *m_form;
-    QString m_script;
-    bool finalized;
+    QString *m_script;
+    bool m_finalized;
 };
 
 #endif // FORMPLUGIN_H

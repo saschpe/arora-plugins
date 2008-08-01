@@ -2,6 +2,7 @@
 #include "plugins/formplugin.h"
 #include <qurl.h>
 #include <qstring.h>
+#include <qdebug.h>
 
 PluginFactory::PluginFactory(QObject *parent)
     : QWebPluginFactory(parent)
@@ -17,6 +18,7 @@ QObject *PluginFactory::create(const QString &mimeType, const QUrl &url,
     if (mimeType == QString::fromLatin1("application/x-qt-form")) {
         QString form = argumentValues[argumentNames.indexOf(QString::fromLatin1("form"))];
         QString script = argumentValues[argumentNames.indexOf(QString::fromLatin1("script"))];
+        qDebug() << "PluginFactory::create() Form:" << form<< "script:" << script;
         return new FormPlugin(form, script);
     }
     return 0;

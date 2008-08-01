@@ -8,17 +8,23 @@
 
 FormPlugin::FormPlugin(const QString &formUrl, const QString &scriptUrl, QWidget *parent)
     : QWidget(parent)
-    , m_formReply(0), m_scriptReply(0), m_form(0), finalized(false)
+    , m_formReply(0), m_scriptReply(0), m_form(0), m_script(0), m_finalized(false)
 {
     QNetworkAccessManager *netAccessManager = new QNetworkAccessManager(this);
+    qDebug() << "FormPlugin::FormPlugin() Form:" << formUrl << "script:" << scriptUrl;
 
-    m_formReply = netAccessManager->get(QNetworkRequest(QUrl(formUrl)));
-    m_scriptReply = netAccessManager->get(QNetworkRequest(QUrl(scriptUrl)));
-
-    connect(m_formReply, SIGNAL(finished()), this, SLOT(downloadFormFinished()));
-    connect(m_formReply, SIGNAL(error(QNetworkReply::NetworkError)), this, SLOT(errorOccured(QNetworkReply::NetworkError)));
-    connect(m_scriptReply, SIGNAL(finished()), this, SLOT(downloadScriptFinished()));
-    connect(m_scriptReply, SIGNAL(error(QNetworkReply::NetworkError)), this, SLOT(errorOccured(QNetworkReply::NetworkError)));
+    if (!formUrl.isEmpty()) {
+        m_formReply = netAccessManager->get(QNetworkRequest(QUrl(formUrl)));
+        connect(m_formReply, SIGNAL(finished()), this, SLOT(downloadFormFinished()));
+        connect(m_formReply, SIGNAL(error(QNetworkReply::NetworkError)), this, SLOT(errorOccured(QNetworkReply::NetworkError)));
+    }
+    if (!scriptUrl.isEmpty()) {
+        m_scriptReply = netAccessManager->get(QNetworkRequest(QUrl(scriptUrl)));
+        connect(m_scriptReply, SIGNAL(finished()), this, SLOT(downloadScriptFinished()));
+        connect(m_scriptReply, SIGNAL(error(QNetworkReply::NetworkError)), this, SLOT(errorOccured(QNetworkReply::NetworkError)));
+    } else {
+        m_script = new QString();
+    }
 }
 
 void FormPlugin::downloadFormFinished()
@@ -33,7 +39,7 @@ void FormPlugin::downloadFormFinished()
 void FormPlugin::downloadScriptFinished()
 {
     QTextStream stream(m_scriptReply);
-    m_script = stream.readAll();
+    m_script = new QString(stream.readAll());
     finalize();
 }
 
@@ -44,12 +50,13 @@ void FormPlugin::errorOccured(QNetworkReply::NetworkError error)
 
 void FormPlugin::finalize()
 {
-    if (finalized || !m_form)
+    if (m_finalized || !m_form || !m_script)
         return;
 
-    QScriptValue ctor = m_scriptEngine.evaluate(m_script);
+    QScriptValue ctor = m_scriptEngine.evaluate(*m_script);
     QScriptValue ui = m_scriptEngine.newQObject(m_form, QScriptEngine::ScriptOwnership);
     QScriptValue calc = ctor.construct(QScriptValueList() << ui);
 
-    finalized = true;
+    m_finalized = true;
+    delete m_script;
 }

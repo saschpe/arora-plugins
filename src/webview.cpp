@@ -83,6 +83,10 @@
 
 #include <qwebframe.h>
 
+#if !defined(QT_NO_UITOOLS)
+#  include <quiloader.h>
+#endif
+
 #include <qdebug.h>
 
 WebPage::WebPage(QObject *parent)
@@ -164,7 +168,6 @@ QWebPage *WebPage::createWindow(QWebPage::WebWindowType type)
 }
 
 #if !defined(QT_NO_UITOOLS)
-#include <QtUiTools>
 QObject *WebPage::createPlugin(const QString &classId, const QUrl &url, const QStringList &paramNames, const QStringList &paramValues)
 {
     Q_UNUSED(url);
