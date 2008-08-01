@@ -53,8 +53,10 @@ void FormPlugin::finalize()
         return;
 
     QScriptValue ctor = m_scriptEngine.evaluate(*m_script);
-    QScriptValue ui = m_scriptEngine.newQObject(m_form, QScriptEngine::ScriptOwnership);
-    QScriptValue calc = ctor.construct(QScriptValueList() << ui);
+    if (m_form) {
+        QScriptValue ui = m_scriptEngine.newQObject(m_form, QScriptEngine::ScriptOwnership);
+        QScriptValue calc = ctor.construct(QScriptValueList() << ui);
+    }
 
     m_finalized = true;
     delete m_script;
