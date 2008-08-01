@@ -378,7 +378,7 @@ void WebView::copyImageLocationToClipboard()
 void WebView::bookmarkLink()
 {
     if (QAction *action = qobject_cast<QAction*>(sender())) {
-        AddBookmarkDialog dialog(action->data().toString(), "");
+        AddBookmarkDialog dialog(action->data().toString(), QString());
         dialog.exec();
     }
 }
