@@ -23,7 +23,7 @@ QObject *PluginFactory::create(const QString &mimeType, const QUrl &url,
             script = argumentValues[argumentNames.indexOf(QString::fromLatin1("script"))];
 
         return new FormPlugin(form, script);
-    } else if (mimeType == QString::fromLatin1("application/x-qt-form")) {
+    } else if (mimeType == QString::fromLatin1("application/x-qt-video")) {
         QString video;
         if (argumentNames.contains(QString::fromLatin1("video")))
             video = argumentValues[argumentNames.indexOf(QString::fromLatin1("video"))];
@@ -38,17 +38,25 @@ QList<QWebPluginFactory::Plugin> PluginFactory::plugins() const
     MimeType formMimeType;
     formMimeType.name = QString::fromLatin1("application/x-qt-form");
     formMimeType.description = QString::fromLatin1("application/x-qt-form");
-
     QList<MimeType> formPluginMimeTypes;
     formPluginMimeTypes.append(formMimeType);
-
     Plugin formPlugin;
     formPlugin.name = QString::fromLatin1("Qt UI form plugin");
     formPlugin.mimeTypes = formPluginMimeTypes;
 
+    MimeType videoMimeType;
+    videoMimeType.name = QString::fromLatin1("application/x-qt-video");
+    videoMimeType.description = QString::fromLatin1("application/x-qt-video");
+    QList<MimeType> videoPluginMimeTypes;
+    videoPluginMimeTypes.append(videoMimeType);
+    Plugin videoPlugin;
+    videoPlugin.name = QString::fromLatin1("Qt video plugin");
+    videoPlugin.mimeTypes = videoPluginMimeTypes;
+
     QList<Plugin> list;
     //TODO: Find out what to enter here, plugin breaks if next line is uncommented:
     //list.append(formPlugin);
+    //list.append(videoPlugin);
 
     return list;
 }
