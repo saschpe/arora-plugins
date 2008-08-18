@@ -1,45 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="2.0" language="zh_CN">
+<!DOCTYPE TS><TS version="1.1" language="zh_CN">
+<defaultcodec></defaultcodec>
+<context encoding="UTF-8">
 <context>
     <name>AboutDialog</name>
     <message>
-        <location filename="../aboutdialog.cpp" line="34"/>
+        <location filename="../aboutdialog.cpp" line="29"/>
         <source>About</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.ui" line="151"/>
-        <source>Authors</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.ui" line="158"/>
-        <source>License</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.ui" line="84"/>
-        <source>Lightweight WebKit-based web browser</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message encoding="UTF-8">
-        <location filename="../aboutdialog.ui" line="100"/>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Copyright Â© 2007-2008 Benjamin C. Meyer &amp;lt;&lt;a href=&quot;mailto:ben@meyerhome.net&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;ben@meyerhome.net&lt;/span&gt;&lt;/a&gt;&amp;gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.ui" line="123"/>
-        <source>&lt;a href=&quot;http://arora-browser.org&quot;&gt;http://arora-browser.org&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.ui" line="165"/>
-        <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>¹ØÓÚ</translation>
     </message>
 </context>
 <context>
@@ -47,18 +15,13 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../addbookmarkdialog.ui" line="13"/>
         <source>Add Bookmark</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©</translation>
+        <translation>Ìí¼ÓÊéÇ©</translation>
     </message>
     <message>
         <location filename="../addbookmarkdialog.ui" line="19"/>
         <source>Type a name for the bookmark, and choose where to keep 
 it.</source>
-        <translation type="obsolete">ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½Ç©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ£ï¿½È»ï¿½ï¿½Ñ¡ï¿½ï¿½Î»ï¿½Ã±ï¿½ï¿½æ¡£</translation>
-    </message>
-    <message>
-        <location filename="../addbookmarkdialog.ui" line="19"/>
-        <source>Type a name for the bookmark, and choose where to keep it.</source>
-        <translation type="unfinished"></translation>
+        <translation>ÇëÎª´ËÊéÇ©ÊäÈëÃû³Æ£¬È»ºóÑ¡ÔñÎ»ÖÃ±£´æ¡£</translation>
     </message>
 </context>
 <context>
@@ -66,37 +29,37 @@ it.</source>
     <message>
         <location filename="../bookmarks.cpp" line="873"/>
         <source>Open</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>´ò¿ª</translation>
     </message>
     <message>
         <location filename="../bookmarks.cpp" line="877"/>
         <source>Delete</source>
-        <translation>É¾ï¿½ï¿½</translation>
+        <translation>É¾³ý</translation>
     </message>
     <message>
-        <location filename="../bookmarks.cpp" line="914"/>
+        <location filename="../bookmarks.cpp" line="913"/>
         <source>New Folder</source>
-        <translation>ï¿½Â½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½</translation>
+        <translation>ÐÂ½¨ÎÄ¼þ¼Ð</translation>
     </message>
     <message>
         <location filename="../bookmarks.ui" line="13"/>
         <source>Bookmarks</source>
-        <translation>ï¿½ï¿½Ç©</translation>
+        <translation>ÊéÇ©</translation>
     </message>
     <message>
         <location filename="../bookmarks.ui" line="40"/>
         <source>&amp;Remove</source>
-        <translation>ï¿½Æ³ï¿½(&amp;R)</translation>
+        <translation>ÒÆ³ý(&amp;R)</translation>
     </message>
     <message>
         <location filename="../bookmarks.ui" line="47"/>
         <source>Add Folder</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½</translation>
+        <translation>Ìí¼ÓÎÄ¼þ¼Ð</translation>
     </message>
     <message>
         <location filename="../bookmarks.cpp" line="874"/>
         <source>Open in New Tab</source>
-        <translation>ï¿½ï¿½ï¿½Â±ï¿½Ç©ï¿½Ð´ï¿½ï¿½ï¿½</translation>
+        <translation>ÔÚÐÂ±êÇ©ÖÐ´ò¿ª</translation>
     </message>
 </context>
 <context>
@@ -105,22 +68,22 @@ it.</source>
         <location filename="../bookmarks.cpp" line="285"/>
         <source>Error when loading bookmarks on line %1, column %2:
 %3</source>
-        <translation>ï¿½Ú´ï¿½ï¿½ï¿½ï¿½ï¿½Ç©ï¿½Äµï¿½ %1 ï¿½Ðºï¿½ %2 ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ÔÚ´ò¿ªÊéÇ©µÄµÚ %1 ÐÐºÍ %2 ÁÐÊ±³ö´í£º</translation>
     </message>
     <message>
         <location filename="../bookmarks.cpp" line="139"/>
         <source>Toolbar Bookmarks</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©</translation>
+        <translation>¹¤¾ßÀ¸ÊéÇ©</translation>
     </message>
     <message>
         <location filename="../bookmarks.cpp" line="147"/>
         <source>Menu</source>
-        <translation>ï¿½Ëµï¿½</translation>
+        <translation>²Ëµ¥</translation>
     </message>
     <message>
         <location filename="../bookmarks.cpp" line="274"/>
         <source>Open File</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½</translation>
+        <translation>´ò¿ªÎÄ¼þ</translation>
     </message>
     <message>
         <location filename="../bookmarks.cpp" line="297"/>
@@ -130,12 +93,12 @@ it.</source>
     <message>
         <location filename="../bookmarks.cpp" line="289"/>
         <source>Imported %1</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %1</translation>
+        <translation>µ¼ÈëµÄ %1</translation>
     </message>
     <message>
         <location filename="../bookmarks.cpp" line="295"/>
         <source>Save File</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½</translation>
+        <translation>±£´æÎÄ¼þ</translation>
     </message>
     <message>
         <location filename="../bookmarks.cpp" line="296"/>
@@ -145,32 +108,32 @@ it.</source>
     <message>
         <location filename="../bookmarks.cpp" line="303"/>
         <source>Export error</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>µ¼³ö´íÎó</translation>
     </message>
     <message>
         <location filename="../bookmarks.cpp" line="303"/>
         <source>error saving bookmarks</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©Ê±ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>±£´æÊéÇ©Ê±³ö´í</translation>
     </message>
     <message>
         <location filename="../bookmarks.cpp" line="307"/>
         <source>Remove Bookmark</source>
-        <translation>ï¿½Æ³ï¿½ï¿½ï¿½Ç©</translation>
+        <translation>ÒÆ³ýÊéÇ©</translation>
     </message>
     <message>
         <location filename="../bookmarks.cpp" line="341"/>
         <source>Insert Bookmark</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©</translation>
+        <translation>²åÈëÊéÇ©</translation>
     </message>
     <message>
         <location filename="../bookmarks.cpp" line="355"/>
         <source>Name Change</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>¸ü¸ÄÃû³Æ</translation>
     </message>
     <message>
         <location filename="../bookmarks.cpp" line="358"/>
         <source>Address Change</source>
-        <translation>ï¿½ï¿½ï¿½Äµï¿½Ö·</translation>
+        <translation>¸ü¸ÄµØÖ·</translation>
     </message>
 </context>
 <context>
@@ -178,337 +141,327 @@ it.</source>
     <message>
         <location filename="../bookmarks.cpp" line="453"/>
         <source>Title</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>±êÌâ</translation>
     </message>
     <message>
         <location filename="../bookmarks.cpp" line="454"/>
         <source>Address</source>
-        <translation>ï¿½ï¿½Ö·</translation>
+        <translation>µØÖ·</translation>
     </message>
 </context>
 <context>
     <name>BookmarksToolBar</name>
     <message>
-        <location filename="../bookmarks.cpp" line="943"/>
+        <location filename="../bookmarks.cpp" line="942"/>
         <source>Bookmark</source>
-        <translation>ï¿½ï¿½Ç©</translation>
+        <translation>ÊéÇ©</translation>
     </message>
 </context>
 <context>
     <name>BrowserApplication</name>
     <message>
-        <location filename="../browserapplication.cpp" line="203"/>
+        <location filename="../browserapplication.cpp" line="197"/>
         <source>There are %1 windows and %2 tabs open
 Do you want to quit anyway?</source>
-        <translation>ï¿½ï¿½Ç°ï¿½ï¿½ %1 ï¿½ï¿½Úºï¿½ %2 
-ï¿½ï¿½ï¿½ï¿½Ç©ï¿½ò¿ª£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½Ë³ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
-    </message>
-    <message>
-        <location filename="../browserapplication.cpp" line="356"/>
-        <source>Restore failed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../browserapplication.cpp" line="357"/>
-        <source>The saved session will not being restored because last time it was restored Arora crashed.</source>
-        <translation type="unfinished"></translation>
+        <translation>µ±Ç°ÓÐ %1 ¸ö´°¿ÚºÍ %2 
+¸ö±êÇ©´ò¿ª£¬ÄúÕæµÄÒªÍË³öÂð£¿</translation>
     </message>
 </context>
 <context>
     <name>BrowserMainWindow</name>
     <message>
-        <location filename="../browsermainwindow.cpp" line="328"/>
+        <location filename="../browsermainwindow.cpp" line="285"/>
         <source>&amp;File</source>
-        <translation>ï¿½Ä¼ï¿½(&amp;F)</translation>
+        <translation>ÎÄ¼þ(&amp;F)</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="287"/>
+        <source>&amp;New Window</source>
+        <translation>ÐÂ½¨´°¿Ú(&amp;N)</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="289"/>
+        <source>&amp;Open File...</source>
+        <translation>´ò¿ªÎÄ¼þ(&amp;O)...</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="290"/>
+        <source>Open &amp;Location...</source>
+        <translation>´ò¿ªÎ»ÖÃ(&amp;L)...</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="295"/>
+        <source>&amp;Save As...</source>
+        <translation>Áí´æÎª(&amp;S)...</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="299"/>
+        <source>&amp;Import Bookmarks...</source>
+        <translation>µ¼ÈëÊéÇ©(&amp;I)...</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="300"/>
+        <source>&amp;Export Bookmarks...</source>
+        <translation>µ¼³öÊéÇ©(&amp;E)...</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="302"/>
+        <source>P&amp;rint Preview...</source>
+        <translation>´òÓ¡Ô¤ÀÀ(&amp;r)...</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="303"/>
+        <source>&amp;Print...</source>
+        <translation>´òÓ¡(&amp;P)...</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="305"/>
+        <source>Private &amp;Browsing...</source>
+        <translation>ÃØÃÜä¯ÀÀ(&amp;B)...</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="312"/>
+        <source>&amp;Quit</source>
+        <translation>ÍË³ö(&amp;Q)</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="316"/>
+        <source>&amp;Edit</source>
+        <translation>±à¼­(&amp;E)</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="317"/>
+        <source>&amp;Undo</source>
+        <translation>³·Ïú(&amp;U)</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="320"/>
+        <source>&amp;Redo</source>
+        <translation>ÖØ×ö(&amp;R)</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="324"/>
+        <source>Cu&amp;t</source>
+        <translation>¼ôÇÐ(&amp;t)</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="327"/>
+        <source>&amp;Copy</source>
+        <translation>¸´ÖÆ(&amp;C)</translation>
     </message>
     <message>
         <location filename="../browsermainwindow.cpp" line="330"/>
-        <source>&amp;New Window</source>
-        <translation>ï¿½Â½ï¿½ï¿½ï¿½ï¿½ï¿½(&amp;N)</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="332"/>
-        <source>&amp;Open File...</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½(&amp;O)...</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="333"/>
-        <source>Open &amp;Location...</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½(&amp;L)...</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="338"/>
-        <source>&amp;Save As...</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½Îª(&amp;S)...</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="342"/>
-        <source>&amp;Import Bookmarks...</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©(&amp;I)...</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="343"/>
-        <source>&amp;Export Bookmarks...</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©(&amp;E)...</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="345"/>
-        <source>P&amp;rint Preview...</source>
-        <translation>ï¿½ï¿½Ó¡Ô¤ï¿½ï¿½(&amp;r)...</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="346"/>
-        <source>&amp;Print...</source>
-        <translation>ï¿½ï¿½Ó¡(&amp;P)...</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="348"/>
-        <source>Private &amp;Browsing...</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(&amp;B)...</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="355"/>
-        <source>&amp;Quit</source>
-        <translation>ï¿½Ë³ï¿½(&amp;Q)</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="359"/>
-        <source>&amp;Edit</source>
-        <translation>ï¿½à¼­(&amp;E)</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="360"/>
-        <source>&amp;Undo</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½(&amp;U)</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="363"/>
-        <source>&amp;Redo</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½(&amp;R)</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="367"/>
-        <source>Cu&amp;t</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½(&amp;t)</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="370"/>
-        <source>&amp;Copy</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½(&amp;C)</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="373"/>
         <source>&amp;Paste</source>
-        <translation>Õ³ï¿½ï¿½(&amp;P)</translation>
+        <translation>Õ³Ìù(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="378"/>
+        <location filename="../browsermainwindow.cpp" line="335"/>
         <source>&amp;Find</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½(&amp;F)</translation>
+        <translation>ËÑË÷(&amp;F)</translation>
     </message>
     <message>
         <location filename="../browsermainwindow.cpp" line="340"/>
         <source>&amp;Find Next</source>
-        <translation type="obsolete">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½(&amp;F)</translation>
+        <translation>ËÑË÷ÏÂÒ»¸ö(&amp;F)</translation>
     </message>
     <message>
         <location filename="../browsermainwindow.cpp" line="344"/>
         <source>&amp;Find Previous</source>
-        <translation type="obsolete">ï¿½ï¿½ï¿½ï¿½Ç°Ò»ï¿½ï¿½(&amp;F)</translation>
+        <translation>ËÑË÷Ç°Ò»¸ö(&amp;F)</translation>
     </message>
     <message>
         <location filename="../browsermainwindow.cpp" line="349"/>
         <source>&amp;Preferences</source>
-        <translation type="obsolete">Ñ¡ï¿½ï¿½(&amp;P)</translation>
+        <translation>Ñ¡Ïî(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="392"/>
+        <location filename="../browsermainwindow.cpp" line="349"/>
         <source>Ctrl+,</source>
         <translation>Ctrl+,</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="395"/>
+        <location filename="../browsermainwindow.cpp" line="352"/>
         <source>&amp;View</source>
-        <translation>ï¿½ï¿½Í¼(&amp;V)</translation>
+        <translation>ÊÓÍ¼(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="409"/>
+        <location filename="../browsermainwindow.cpp" line="356"/>
         <source>Shift+Ctrl+B</source>
         <translation>Shift+Ctrl+B</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="403"/>
+        <location filename="../browsermainwindow.cpp" line="362"/>
         <source>Ctrl+|</source>
         <translation>Ctrl+|</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="420"/>
+        <location filename="../browsermainwindow.cpp" line="368"/>
         <source>Ctrl+/</source>
         <translation>Ctrl+/</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="426"/>
+        <location filename="../browsermainwindow.cpp" line="374"/>
         <source>&amp;Stop</source>
         <translation>Í£Ö¹(&amp;S)</translation>
     </message>
     <message>
         <location filename="../browsermainwindow.cpp" line="381"/>
         <source>Reload Page</source>
-        <translation type="obsolete">Ë¢ï¿½ï¿½Ò³ï¿½ï¿½</translation>
+        <translation>Ë¢ÐÂÒ³Ãæ</translation>
     </message>
     <message>
         <location filename="../browsermainwindow.cpp" line="385"/>
         <source>&amp;Make Text Bigger</source>
-        <translation type="obsolete">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(&amp;M)</translation>
+        <translation>Ôö´óÎÄ×Ö(&amp;M)</translation>
     </message>
     <message>
         <location filename="../browsermainwindow.cpp" line="386"/>
         <source>&amp;Make Text Normal</source>
-        <translation type="obsolete">ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡(&amp;M)</translation>
+        <translation>»Ö¸´ÎÄ×ÖÕý³£´óÐ¡(&amp;M)</translation>
     </message>
     <message>
         <location filename="../browsermainwindow.cpp" line="387"/>
         <source>&amp;Make Text Smaller</source>
-        <translation type="obsolete">ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½(&amp;M)</translation>
+	<translation>ËõÐ¡ÎÄ×Ö(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="442"/>
+        <location filename="../browsermainwindow.cpp" line="390"/>
         <source>Page S&amp;ource</source>
-        <translation>Ò³ï¿½ï¿½Ô´ï¿½Ä¼ï¿½(&amp;o)</translation>
+        <translation>Ò³ÃæÔ´ÎÄ¼þ(&amp;o)</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="442"/>
+        <location filename="../browsermainwindow.cpp" line="390"/>
         <source>Ctrl+Alt+U</source>
         <translation>Ctrl+Alt+U</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="443"/>
+        <location filename="../browsermainwindow.cpp" line="391"/>
         <source>&amp;Full Screen</source>
-        <translation>È«ï¿½ï¿½(&amp;F)</translation>
+        <translation>È«ÆÁ(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="450"/>
+        <location filename="../browsermainwindow.cpp" line="400"/>
         <source>Hi&amp;story</source>
-        <translation>ï¿½ï¿½Ê·(&amp;s)</translation>
+        <translation>ÀúÊ·(&amp;s)</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="454"/>
+        <location filename="../browsermainwindow.cpp" line="404"/>
         <source>Back</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ºóÍË</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="409"/>
+        <source>Forward</source>
+        <translation>Ç°½ø</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="414"/>
+        <source>Home</source>
+        <translation>Ö÷Ò³</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="418"/>
+        <source>Restore Last Session</source>
+        <translation>»Ö¸´×îºóÒ»´ÎµÄ»á»°</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="435"/>
+        <source>&amp;Bookmarks</source>
+        <translation>ÊéÇ©(&amp;B)</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="440"/>
+        <source>Manage Bookmarks...</source>
+        <translation>¹ÜÀíÊéÇ©...</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="442"/>
+        <source>Add Bookmark...</source>
+        <translation>Ôö¼ÓÊéÇ©...</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="453"/>
+        <source>&amp;Window</source>
+        <translation>´°¿Ú(&amp;W)</translation>
+    </message>
+    <message>
+        <location filename="../browsermainwindow.cpp" line="458"/>
+        <source>&amp;Tools</source>
+        <translation>¹¤¾ß(&amp;T)</translation>
     </message>
     <message>
         <location filename="../browsermainwindow.cpp" line="459"/>
-        <source>Forward</source>
-        <translation>Ç°ï¿½ï¿½</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="464"/>
-        <source>Home</source>
-        <translation>ï¿½ï¿½Ò³</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="468"/>
-        <source>Restore Last Session</source>
-        <translation>ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ÎµÄ»á»°</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="483"/>
-        <source>&amp;Bookmarks</source>
-        <translation>ï¿½ï¿½Ç©(&amp;B)</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="488"/>
-        <source>Manage Bookmarks...</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©...</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="490"/>
-        <source>Add Bookmark...</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©...</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="501"/>
-        <source>&amp;Window</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½(&amp;W)</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="506"/>
-        <source>&amp;Tools</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½(&amp;T)</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="507"/>
         <source>Web &amp;Search</source>
-        <translation>Webï¿½ï¿½ï¿½ï¿½(&amp;S)</translation>
+        <translation>WebËÑË÷(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="508"/>
+        <location filename="../browsermainwindow.cpp" line="460"/>
         <source>Ctrl+K</source>
         <comment>Web Search</comment>
         <translation>Ctrl+K</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="512"/>
+        <location filename="../browsermainwindow.cpp" line="464"/>
         <source>Enable Web &amp;Inspector</source>
         <translation>Enable Web &amp;Inspector</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="519"/>
+        <location filename="../browsermainwindow.cpp" line="468"/>
         <source>&amp;Help</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½(&amp;H)</translation>
+        <translation>°ïÖú(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="520"/>
+        <location filename="../browsermainwindow.cpp" line="469"/>
         <source>About &amp;Qt</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½Qt(&amp;Q)</translation>
+        <translation>¹ØÓÚQt(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="521"/>
+        <location filename="../browsermainwindow.cpp" line="470"/>
         <source>About &amp;Arora</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½Arora(&amp;A)</translation>
+        <translation>¹ØÓÚArora(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="527"/>
+        <location filename="../browsermainwindow.cpp" line="476"/>
         <source>Navigation</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>µ¼º½</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="625"/>
+        <location filename="../browsermainwindow.cpp" line="565"/>
         <source>Show Status Bar</source>
-        <translation>ï¿½ï¿½Ê¾×´Ì¬ï¿½</translation>
+        <translation>ÏÔÊ¾×´Ì¬À¸</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="625"/>
+        <location filename="../browsermainwindow.cpp" line="565"/>
         <source>Hide Status Bar</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½×´Ì¬ï¿½</translation>
+        <translation>Òþ²Ø×´Ì¬À¸</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="630"/>
+        <location filename="../browsermainwindow.cpp" line="570"/>
         <source>Show Toolbar</source>
-        <translation>ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ÏÔÊ¾¹¤¾ßÀ¸</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="630"/>
+        <location filename="../browsermainwindow.cpp" line="570"/>
         <source>Hide Toolbar</source>
-        <translation>ï¿½ï¿½ï¿½Ø¹ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>Òþ²Ø¹¤¾ßÀ¸</translation>
     </message>
     <message>
         <location filename="../browsermainwindow.cpp" line="575"/>
         <source>Show Bookmarks bar</source>
-        <translation type="obsolete">ï¿½ï¿½Ê¾ï¿½ï¿½Ç©ï¿½</translation>
+        <translation>ÏÔÊ¾ÊéÇ©À¸</translation>
     </message>
     <message>
         <location filename="../browsermainwindow.cpp" line="575"/>
         <source>Hide Bookmarks bar</source>
-        <translation type="obsolete">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©ï¿½</translation>
+        <translation>Òþ²ØÊéÇ©À¸</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="733"/>
+        <location filename="../browsermainwindow.cpp" line="665"/>
         <source>Arora</source>
         <translation>Arora</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="738"/>
+        <location filename="../browsermainwindow.cpp" line="670"/>
         <source>%1 - Arora</source>
         <comment>Page title and Browser name</comment>
         <translation>%1 - Arora</translation>
@@ -516,7 +469,7 @@ Do you want to quit anyway?</source>
     <message>
         <location filename="src/browsermainwindow.cpp" line="672"/>
         <source>About</source>
-        <translation type="obsolete">ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation type="obsolete">¹ØÓÚ</translation>
     </message>
     <message>
         <location filename="src/browsermainwindow.cpp" line="678"/>
@@ -525,33 +478,33 @@ facilities in action, providing an example browser for you to experiment
 with.&lt;p&gt;&lt;p&gt;QtWebKit is based on the Open Source WebKit Project 
 developed at &lt;a 
 href=&quot;http://webkit.org/&quot;&gt;http://webkit.org/&lt;/a&gt;.</source>
-        <translation type="obsolete">Version %1&lt;p&gt;This demo demonstrates Qt&apos;s webkit 
+	<translation>Version %1&lt;p&gt;This demo demonstrates Qt&apos;s webkit 
 facilities in action, providing an example browser for you to experiment 
 with.&lt;p&gt;&lt;p&gt;QtWebKit is based on the Open Source WebKit Project 
 developed at &lt;a 
 href=&quot;http://webkit.org/&quot;&gt;http://webkit.org/&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="758"/>
+        <location filename="../browsermainwindow.cpp" line="693"/>
         <source>Open Web Resource</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô´</translation>
+        <translation>¿ª·ÅÍøÂç×ÊÔ´</translation>
     </message>
     <message>
         <location filename="../browsermainwindow.cpp" line="694"/>
         <source>Web Resources (*.html *.htm *.svg *.png *.gif *.svgz);;All files 
 (*.*)</source>
-        <translation type="obsolete">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô´ (*.html *.htm *.svg *.png *.gif *.svgz);;ï¿½ï¿½ï¿½Ðµï¿½ï¿½Ä¼ï¿½ 
+        <translation>ÍøÂç×ÊÔ´ (*.html *.htm *.svg *.png *.gif *.svgz);;ËùÓÐµÄÎÄ¼þ 
 (*.*)</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="788"/>
+        <location filename="../browsermainwindow.cpp" line="723"/>
         <source>Print Document</source>
-        <translation>ï¿½ï¿½Ó¡ï¿½Äµï¿½</translation>
+        <translation>´òÓ¡ÎÄµµ</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="799"/>
+        <location filename="../browsermainwindow.cpp" line="734"/>
         <source>Are you sure you want to turn on private browsing?</source>
-        <translation>ï¿½ï¿½È·ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ÄúÈ·¶¨Òª´ò¿ªÃØÃÜä¯ÀÀÂð£¿</translation>
     </message>
     <message>
         <location filename="src/browsermainwindow.cpp" line="739"/>
@@ -562,21 +515,22 @@ be accessed, site icons wont be stored, session wont be saved,  and searches are
 not addded to the pop-up menu in the Google search box.  Until you close the 
 window, you can still click the Back and Forward buttons to return to the webpages 
 you have opened.</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;&lt;br&gt;&lt;br&gt;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò³ï¿½æ²»ï¿½á±»ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½Ê·ï¿½Ð£ï¿½ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½Ý»á±»ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ³ï¿½ï¿½ï¿½ï¿½Âµï¿½cookieÒ²ï¿½ï¿½ï¿½á±»ï¿½ï¿½ï¿½æ£¬ï¿½ï¿½Ç°ï¿½ï¿½cookieÒ²ï¿½ï¿½ï¿½Ü±ï¿½ï¿½ï¿½ï¿½Ê£ï¿½Õ¾ï¿½ï¿½Í¼ï¿½ê²»ï¿½á±»ï¿½ï¿½ï¿½æ£¬ï¿½á»°Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ£¬ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½Googleï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Äµï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø±Õ´ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È»ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Íºï¿½ï¿½Ë°ï¿½Å¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ò¿ªµï¿½Ò³ï¿½æ¡£</translation>
+        <translation 
+type="obsolete">&lt;b&gt;%1&lt;/b&gt;&lt;br&gt;&lt;br&gt;´ò¿ªÃØÃÜä¯ÀÀÊ±£¬ä¯ÀÀµÄÒ³Ãæ²»»á±»Ìí¼Óµ½ÀúÊ·ÖÐ£¬ÏÂÔØµÄÄÚÈÝ»á±»×Ô¶¯´ÓÏÂÔØ´°¿ÚÖÖÒÆ³ý£¬ÐÂµÄcookieÒ²²»»á±»±£´æ£¬µ±Ç°µÄcookieÒ²²»ÄÜ±»·ÃÎÊ£¬Õ¾µãÍ¼±ê²»»á±»±£´æ£¬»á»°Ò²½«²»±»±£´æ£¬ËÑË÷Ò²²»»áÌí¼Óµ½GoogleËÑË÷¿òµÄµ¯³ö²Ëµ¥ÖÐ¡£ÔÚÄã¹Ø±Õ´°¿ÚÇ°£¬ÄãÈÔÈ»¿ÉÒÔÊ¹ÓÃÇ°½øºÍºóÍË°´Å¥À´·ÃÎÊÄãÔø¾­´ò¿ªµÄÒ³Ãæ¡£</translation>
     </message>
     <message>
         <location filename="../browsermainwindow.cpp" line="768"/>
         <source>Are you sure you want to close the window?  There are %1 tab 
 open</source>
-        <translation type="obsolete">ï¿½ï¿½È·ï¿½ï¿½Òªï¿½Ø±Õ´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ç°ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %1 ï¿½ï¿½ï¿½ï¿½Ç©ï¿½ï¿½</translation>
+        <translation>ÄúÈ·¶¨Òª¹Ø±Õ´°¿ÚÂð£¿ µ±Ç°ÒÑ¾­´ò¿ªÁË %1 ¸ö±êÇ©¡£</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="902"/>
+        <location filename="../browsermainwindow.cpp" line="832"/>
         <source>Page Source of %1</source>
-        <translation>Ò³ï¿½ï¿½ %1 ï¿½ï¿½Ô´ï¿½ï¿½</translation>
+        <translation>Ò³Ãæ %1 µÄÔ´Âë</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="932"/>
+        <location filename="../browsermainwindow.cpp" line="862"/>
         <source>Web Inspector</source>
         <translation>Web Inspector</translation>
     </message>
@@ -585,40 +539,40 @@ open</source>
         <source>The web inspector will only work correctly for pages that were 
 loaded after enabling.
 Do you want to reload all pages?</source>
-        <translation type="obsolete">Web 
-inspactorÖ»ï¿½ï¿½ï¿½ï¿½ï¿½Ãºï¿½ï¿½ò¿ªµï¿½Ò³ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½Ò³ï¿½æ£¿</translation>
+        <translation>Web 
+inspactorÖ»¶ÔÆôÓÃºó´ò¿ªµÄÒ³ÃæÓÐÐ§¡£ÄúÊÇ·ñÒªÖØÐÂÔØÈëËùÓÐµÄÒ³Ãæ£¿</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="988"/>
+        <location filename="../browsermainwindow.cpp" line="916"/>
         <source>Stop loading the current page</source>
-        <translation>Í£Ö¹ï¿½ï¿½ï¿½ëµ±Ç°Ò³ï¿½ï¿½</translation>
+        <translation>Í£Ö¹ÔØÈëµ±Ç°Ò³Ãæ</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="993"/>
+        <location filename="../browsermainwindow.cpp" line="922"/>
         <source>Reload the current page</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ëµ±Ç°Ò³ï¿½ï¿½</translation>
+        <translation>ÖØÐÂÔØÈëµ±Ç°Ò³Ãæ</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="1039"/>
+        <location filename="../browsermainwindow.cpp" line="968"/>
         <source>Downloads</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ÏÂÔØ</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="1039"/>
+        <location filename="../browsermainwindow.cpp" line="968"/>
         <source>Alt+Ctrl+L</source>
         <comment>Download Manager</comment>
         <translation>Alt+Ctrl+L</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="509"/>
+        <location filename="../browsermainwindow.cpp" line="461"/>
         <source>&amp;Clear Private Data</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë½ï¿½ï¿½ï¿½ï¿½(&amp;C)</translation>
+        <translation>Çå³ýÒþË½Êý¾Ý(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../browsermainwindow.cpp" line="510"/>
+        <location filename="../browsermainwindow.cpp" line="462"/>
         <source>Ctrl+Shift+Delete</source>
         <comment>Clear Private Data</comment>
-        <translation>Ctrl+Shift+Delete</translation>
+        <translation >Ctrl+Shift+Delete</translation>
     </message>
     <message>
         <location filename="../browsermainwindow.cpp" line="743"/>
@@ -632,74 +586,9 @@ session won&apos;t be saved.&lt;/li&gt;&lt;li&gt; Searches are not addded to the
 pop-up menu in the search box.&lt;/li&gt;&lt;/ul&gt;Until you close the window, 
 you can still click the Back and Forward buttonsto return to the webpages you have 
 opened.</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;&lt;br&gt;&lt;br&gt;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½æ¼°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë½ï¿½Ä²ï¿½ï¿½ï¿½ï¿½Ç±ï¿½ï¿½ï¿½Ö¹ï¿½Ä£ï¿½&lt;ul&gt;&lt;li&gt; 
-Ò³ï¿½æ²»ï¿½á±»ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½Ê·ï¿½Ð¡ï¿½&lt;/li&gt;&lt;li&gt;ï¿½ï¿½ï¿½Ý»á±»ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ³ï¿½ï¿½ï¿½&lt;/li&gt;&lt;li&gt;ï¿½Âµï¿½cookieï¿½ï¿½ï¿½Ü±ï¿½ï¿½ï¿½ï¿½æ£¬ï¿½ï¿½Ç°cookieï¿½ï¿½ï¿½Ü·ï¿½ï¿½Ê¡ï¿½&lt;/li&gt;&lt;li&gt;Õ¾ï¿½ï¿½Í¼ï¿½ê²»ï¿½ï¿½ï¿½ï¿½ï¿½æ¡£&lt;/li&gt;&lt;li&gt;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¹Ø¼ï¿½ï¿½Ê²ï¿½ï¿½á±»ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Äµï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½&lt;/li&gt;&lt;/ul&gt;ï¿½Ú¹Ø±Õ´ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È»ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Íºï¿½ï¿½Ë°ï¿½Å¥ï¿½ï¿½ï¿½Ê´ò¿ªµï¿½Ò³ï¿½æ¡£</translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="383"/>
-        <source>Find &amp;Next</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="387"/>
-        <source>Find P&amp;revious</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="392"/>
-        <source>Prefe&amp;rences</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="433"/>
-        <source>&amp;Reload Page</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="437"/>
-        <source>Make Text &amp;Bigger</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="438"/>
-        <source>Make Text &amp;Normal</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="439"/>
-        <source>Make Text &amp;Smaller</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="635"/>
-        <source>Show Bookmarks Bar</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="635"/>
-        <source>Hide Bookmarks Bar</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="759"/>
-        <source>Web Resources (*.html *.htm *.svg *.png *.gif *.svgz);;All files (*.*)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="808"/>
-        <source>&lt;b&gt;%1&lt;/b&gt;&lt;br&gt;&lt;br&gt;When private browsing is turned on, some actions concerning your privacy will be disabled:&lt;ul&gt;&lt;li&gt; Webpages are not added to the history.&lt;/li&gt;&lt;li&gt; Items are automatically removed from the Downloads window.&lt;/li&gt;&lt;li&gt; New cookies are not stored, current cookies can&apos;t be accessed.&lt;/li&gt;&lt;li&gt; Site icons won&apos;t be stored, session won&apos;t be saved.&lt;/li&gt;&lt;li&gt; Searches are not addded to the pop-up menu in the search box.&lt;/li&gt;&lt;/ul&gt;Until you close the window, you can still click the Back and Forward buttons to return to the webpages you have opened.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="837"/>
-        <source>Are you sure you want to close the window?  There are %1 tabs open</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../browsermainwindow.cpp" line="934"/>
-        <source>The web inspector will only work correctly for pages that were loaded after enabling.
-Do you want to reload all pages?</source>
-        <translation type="unfinished"></translation>
+        
+<translation>&lt;b&gt;%1&lt;/b&gt;&lt;br&gt;&lt;br&gt;µ±ÃØÃÜä¯ÀÀÆôÓÃÊ±£¬Éæ¼°Äú¸öÈËÒþË½µÄ²Ù×÷ÊÇ±»½ûÖ¹µÄ£º&lt;ul&gt;&lt;li&gt; 
+Ò³Ãæ²»»á±»Ìí¼Óµ½ÀúÊ·ÖÐ¡£&lt;/li&gt;&lt;li&gt;ÄÚÈÝ»á±»×Ô¶¯´ÓÏÂÔØ´°¿ÚÖÐÒÆ³ý¡£&lt;/li&gt;&lt;li&gt;ÐÂµÄcookie²»ÄÜ±»±£´æ£¬µ±Ç°cookie²»ÄÜ·ÃÎÊ¡£&lt;/li&gt;&lt;li&gt;Õ¾µãÍ¼±ê²»±»±£´æ¡£&lt;/li&gt;&lt;li&gt;ËÑË÷¹ýµÄ¹Ø¼ü´Ê²»»á±»Ìí¼Óµ½ËÑË÷¿òµÄµ¯³ö²Ëµ¥ÖÐ&lt;/li&gt;&lt;/ul&gt;ÔÚ¹Ø±Õ´°¿ÚÇ°£¬ÄúÈÔÈ»¿ÉÒÔÍ¨¹ýÇ°½øºÍºóÍË°´Å¥·ÃÎÊ´ò¿ªµÄÒ³Ãæ¡£</translation>
     </message>
 </context>
 <context>
@@ -707,7 +596,7 @@ Do you want to reload all pages?</source>
     <message>
         <location filename="../searchlineedit.cpp" line="74"/>
         <source>Clear</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>Çå³ý</translation>
     </message>
 </context>
 <context>
@@ -715,27 +604,27 @@ Do you want to reload all pages?</source>
     <message>
         <location filename="../clearprivatedata.cpp" line="38"/>
         <source>Clear Private Data</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢</translation>
+        <translation >Çå³þ¸öÈËÐÅÏ¢</translation>
     </message>
     <message>
         <location filename="../clearprivatedata.cpp" line="41"/>
         <source>Clear the following items:</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½</translation>
+        <translation>Çå³ýÒÔÏÂÄÚÈÝ£º</translation>
     </message>
     <message>
         <location filename="../clearprivatedata.cpp" line="43"/>
         <source>&amp;Browsing History</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê·(B)</translation>
+        <translation>ä¯ÀÀÀúÊ·(&amo;B)</translation>
     </message>
     <message>
         <location filename="../clearprivatedata.cpp" line="47"/>
         <source>&amp;Download History</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê·(&amp;D)</translation>
+        <translation>ÏÂÔØÀúÊ·(&amp;D)</translation>
     </message>
     <message>
         <location filename="../clearprivatedata.cpp" line="51"/>
         <source>&amp;Search History</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê·(&amp;S)</translation>
+        <translation>ËÑË÷ÀúÊ·(&amp;S)</translation>
     </message>
     <message>
         <location filename="../clearprivatedata.cpp" line="55"/>
@@ -745,83 +634,83 @@ Do you want to reload all pages?</source>
     <message>
         <location filename="../clearprivatedata.cpp" line="59"/>
         <source>C&amp;ache</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½(&amp;a)</translation>
+        <translation>»º´æ(&amp;a)</translation>
     </message>
     <message>
         <location filename="../clearprivatedata.cpp" line="63"/>
         <source>Website &amp;Icons</source>
-        <translation>Õ¾ï¿½ï¿½Í¼ï¿½ï¿½(&amp;I)</translation>
+        <translation>Õ¾µãÍ¼±ê(&amp;I)</translation>
     </message>
     <message>
         <location filename="../clearprivatedata.cpp" line="67"/>
         <source>Clear &amp;Private Data</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(&amp;P)</translation>
+        <translation>Çå³ý¸öÈËÊý¾Ý(&amp;P)</translation>
     </message>
     <message>
         <location filename="../clearprivatedata.cpp" line="69"/>
         <source>&amp;Cancel</source>
-        <translation>È¡ï¿½ï¿½(&amp;C)</translation>
+        <translation>È¡Ïû(&amp;C)</translation>
     </message>
 </context>
 <context>
     <name>CookieExceptionsModel</name>
     <message>
-        <location filename="../cookiejar.cpp" line="596"/>
+        <location filename="../cookiejar.cpp" line="573"/>
         <source>Website</source>
-        <translation>Õ¾ï¿½ï¿½</translation>
+        <translation>Õ¾µã</translation>
     </message>
     <message>
-        <location filename="../cookiejar.cpp" line="598"/>
+        <location filename="../cookiejar.cpp" line="575"/>
         <source>Status</source>
         <translation>×´Ì¬</translation>
     </message>
     <message>
-        <location filename="../cookiejar.cpp" line="618"/>
+        <location filename="../cookiejar.cpp" line="595"/>
         <source>Allow</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ÔÊÐí</translation>
     </message>
     <message>
-        <location filename="../cookiejar.cpp" line="627"/>
+        <location filename="../cookiejar.cpp" line="604"/>
         <source>Block</source>
-        <translation>ï¿½Ü¾ï¿½</translation>
+        <translation>¾Ü¾ø</translation>
     </message>
     <message>
-        <location filename="../cookiejar.cpp" line="636"/>
+        <location filename="../cookiejar.cpp" line="613"/>
         <source>Allow For Session</source>
-        <translation>ï¿½Ô´Ë»á»°ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>¶Ô´Ë»á»°ÔÊÐí</translation>
     </message>
 </context>
 <context>
     <name>CookieModel</name>
     <message>
-        <location filename="../cookiejar.cpp" line="441"/>
+        <location filename="../cookiejar.cpp" line="418"/>
         <source>Website</source>
-        <translation>Õ¾ï¿½ï¿½</translation>
+        <translation>Õ¾µã</translation>
     </message>
     <message>
-        <location filename="../cookiejar.cpp" line="443"/>
+        <location filename="../cookiejar.cpp" line="420"/>
         <source>Name</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>Ãû³Æ</translation>
     </message>
     <message>
-        <location filename="../cookiejar.cpp" line="445"/>
+        <location filename="../cookiejar.cpp" line="422"/>
         <source>Path</source>
-        <translation>Â·ï¿½ï¿½</translation>
+        <translation>Â·¾¶</translation>
     </message>
     <message>
-        <location filename="../cookiejar.cpp" line="447"/>
+        <location filename="../cookiejar.cpp" line="424"/>
         <source>Secure</source>
-        <translation>ï¿½ï¿½È«</translation>
+        <translation>°²È«</translation>
     </message>
     <message>
-        <location filename="../cookiejar.cpp" line="449"/>
+        <location filename="../cookiejar.cpp" line="426"/>
         <source>Expires</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>¹ýÆÚ</translation>
     </message>
     <message>
-        <location filename="../cookiejar.cpp" line="451"/>
+        <location filename="../cookiejar.cpp" line="428"/>
         <source>Contents</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ÄÚÈÝ</translation>
     </message>
 </context>
 <context>
@@ -834,12 +723,12 @@ Do you want to reload all pages?</source>
     <message>
         <location filename="../cookies.ui" line="40"/>
         <source>&amp;Remove</source>
-        <translation>ï¿½Æ³ï¿½(&amp;R)</translation>
+        <translation>ÒÆ³ý(&amp;R)</translation>
     </message>
     <message>
         <location filename="../cookies.ui" line="47"/>
         <source>Remove &amp;All Cookies</source>
-        <translation>ï¿½Æ³ï¿½ï¿½ï¿½ï¿½Ðµï¿½Cookie(&amp;A)</translation>
+        <translation>ÒÆ³ýËùÓÐµÄCookie(&amp;A)</translation>
     </message>
 </context>
 <context>
@@ -847,47 +736,47 @@ Do you want to reload all pages?</source>
     <message>
         <location filename="../cookiesexceptions.ui" line="13"/>
         <source>Cookie Exceptions</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cookie</translation>
+        <translation>ÀýÍâµÄCookie</translation>
     </message>
     <message>
         <location filename="../cookiesexceptions.ui" line="19"/>
         <source>New Exception</source>
-        <translation>ï¿½Â½ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ÐÂ½¨ÀýÍâ</translation>
     </message>
     <message>
         <location filename="../cookiesexceptions.ui" line="27"/>
         <source>Domain:</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>Óò£º</translation>
     </message>
     <message>
         <location filename="../cookiesexceptions.ui" line="57"/>
         <source>Block</source>
-        <translation>ï¿½Ü¾ï¿½</translation>
+        <translation>¾Ü¾ø</translation>
     </message>
     <message>
         <location filename="../cookiesexceptions.ui" line="67"/>
         <source>Allow For Session</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ÐµÄ»á»°ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>¶ÔËùÓÐµÄ»á»°ÔÊÐí</translation>
     </message>
     <message>
         <location filename="../cookiesexceptions.ui" line="77"/>
         <source>Allow</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ÔÊÐí</translation>
     </message>
     <message>
         <location filename="../cookiesexceptions.ui" line="89"/>
         <source>Exceptions</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ÀýÍâ</translation>
     </message>
     <message>
         <location filename="../cookiesexceptions.ui" line="114"/>
         <source>&amp;Remove</source>
-        <translation>ï¿½Æ³ï¿½(&amp;R)</translation>
+        <translation>ÒÆ³ý(&amp;R)</translation>
     </message>
     <message>
         <location filename="../cookiesexceptions.ui" line="121"/>
         <source>Remove &amp;All</source>
-        <translation>ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½(&amp;A)</translation>
+        <translation>ÒÆ³ýËùÓÐ(&amp;A)</translation>
     </message>
 </context>
 <context>
@@ -895,17 +784,17 @@ Do you want to reload all pages?</source>
     <message>
         <location filename="../downloads.ui" line="13"/>
         <source>Downloads</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ÏÂÔØ</translation>
     </message>
     <message>
         <location filename="../downloads.ui" line="37"/>
         <source>Clean up</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>Çå³ý</translation>
     </message>
     <message>
         <location filename="../downloads.ui" line="59"/>
         <source>0 Items</source>
-        <translation>0 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>0 ¸öÄÚÈÝ</translation>
     </message>
 </context>
 <context>
@@ -923,12 +812,12 @@ Do you want to reload all pages?</source>
     <message>
         <location filename="../downloaditem.ui" line="43"/>
         <source>Filename</source>
-        <translation>ï¿½Ä¼ï¿½ï¿½ï¿½</translation>
+        <translation>ÎÄ¼þÃû</translation>
     </message>
     <message>
         <location filename="../downloaditem.ui" line="90"/>
         <source>Try Again</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ÖØÊÔ</translation>
     </message>
     <message>
         <location filename="../downloaditem.ui" line="97"/>
@@ -938,91 +827,77 @@ Do you want to reload all pages?</source>
     <message>
         <location filename="../downloaditem.ui" line="104"/>
         <source>Open</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>´ò¿ª</translation>
     </message>
     <message>
-        <location filename="../downloadmanager.cpp" line="165"/>
+        <location filename="../downloadmanager.cpp" line="156"/>
         <source>Save File</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½</translation>
+        <translation>±£´æÎÄ¼þ</translation>
     </message>
     <message>
-        <location filename="../downloadmanager.cpp" line="170"/>
+        <location filename="../downloadmanager.cpp" line="159"/>
         <source>Download canceled: %1</source>
-        <translation>È¡ï¿½ï¿½ï¿½ï¿½ï¿½Ø£ï¿½ %1</translation>
+        <translation>È¡ÏûÏÂÔØ£º %1</translation>
     </message>
     <message>
-        <location filename="../downloadmanager.cpp" line="265"/>
+        <location filename="../downloadmanager.cpp" line="255"/>
         <source>Error opening save file: %1</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %1</translation>
+        <translation>´ò¿ªÒÑ´æÎÄ¼þ´íÎó£º %1</translation>
     </message>
     <message>
-        <location filename="../downloadmanager.cpp" line="274"/>
+        <location filename="../downloadmanager.cpp" line="264"/>
         <source>Error saving: %1</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %1</translation>
+        <translation>±£´æ´íÎó£º %1</translation>
     </message>
     <message>
-        <location filename="../downloadmanager.cpp" line="286"/>
+        <location filename="../downloadmanager.cpp" line="272"/>
         <source>Network Error: %1</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: %1</translation>
+        <translation>ÍøÂç´íÎó: %1</translation>
     </message>
     <message>
-        <location filename="../downloadmanager.cpp" line="328"/>
+        <location filename="../downloadmanager.cpp" line="306"/>
         <source>seconds</source>
-        <translation>ï¿½ï¿½</translation>
+        <translation>Ãë</translation>
     </message>
     <message>
         <location filename="../downloadmanager.cpp" line="309"/>
         <source>minutes</source>
-        <translation type="obsolete">ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>·ÖÖÓ</translation>
     </message>
     <message>
         <location filename="../downloadmanager.cpp" line="322"/>
         <source>- %4 %5 remaining</source>
-        <translation type="obsolete">- %4 %5 Ê£ï¿½ï¿½</translation>
+        <translation>- %4 %5 Ê£Óà</translation>
     </message>
     <message>
-        <location filename="../downloadmanager.cpp" line="350"/>
+        <location filename="../downloadmanager.cpp" line="324"/>
         <source>%1 of %2 (%3/sec) %4</source>
         <translation>%1 z %2 (%3/s) %4</translation>
     </message>
     <message>
-        <location filename="../downloadmanager.cpp" line="352"/>
+        <location filename="../downloadmanager.cpp" line="326"/>
         <source>?</source>
-        <translation>ï¿½ï¿½</translation>
+        <translation>£¿</translation>
     </message>
     <message>
-        <location filename="../downloadmanager.cpp" line="360"/>
+        <location filename="../downloadmanager.cpp" line="334"/>
         <source>%1 of %2 - Stopped</source>
         <translation>%1 z %2 - Í£Ö¹</translation>
     </message>
     <message>
-        <location filename="../downloadmanager.cpp" line="373"/>
+        <location filename="../downloadmanager.cpp" line="344"/>
         <source>bytes</source>
         <translation>bytes</translation>
     </message>
     <message>
-        <location filename="../downloadmanager.cpp" line="376"/>
+        <location filename="../downloadmanager.cpp" line="347"/>
         <source>kB</source>
         <translation>kB</translation>
     </message>
     <message>
-        <location filename="../downloadmanager.cpp" line="379"/>
+        <location filename="../downloadmanager.cpp" line="350"/>
         <source>MB</source>
         <translation>MB</translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../downloadmanager.cpp" line="343"/>
-        <source>- %n minutes remaining</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../downloadmanager.cpp" line="347"/>
-        <source>- %n seconds remaining</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-        </translation>
     </message>
 </context>
 <context>
@@ -1030,98 +905,84 @@ Do you want to reload all pages?</source>
     <message>
         <location filename="../downloadmanager.cpp" line="577"/>
         <source>1 Download</source>
-        <translation type="obsolete">1 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>1 ¸öÏÂÔØ</translation>
     </message>
     <message>
         <location filename="../downloadmanager.cpp" line="577"/>
         <source>%1 Downloads</source>
-        <translation type="obsolete">%1 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../downloadmanager.cpp" line="618"/>
-        <source>%n Download(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-        </translation>
+        <translation>%1 ¸öÏÂÔØ</translation>
     </message>
 </context>
 <context>
     <name>HistoryDialog</name>
     <message>
-        <location filename="../history.cpp" line="725"/>
+        <location filename="../history.cpp" line="722"/>
         <source>Open</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>´ò¿ª</translation>
     </message>
     <message>
-        <location filename="../history.cpp" line="727"/>
+        <location filename="../history.cpp" line="724"/>
         <source>Copy</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>¸´ÖÆ</translation>
     </message>
     <message>
-        <location filename="../history.cpp" line="729"/>
+        <location filename="../history.cpp" line="726"/>
         <source>Delete</source>
-        <translation>É¾ï¿½ï¿½</translation>
+        <translation>É¾³ý</translation>
     </message>
     <message>
         <location filename="../history.ui" line="13"/>
         <source>History</source>
-        <translation>ï¿½ï¿½Ê·</translation>
+        <translation>ÀúÊ·</translation>
     </message>
     <message>
         <location filename="../history.ui" line="40"/>
         <source>&amp;Remove</source>
-        <translation>ï¿½Æ³ï¿½(&amp;R)</translation>
+        <translation>ÒÆ³ý(&amp;R)</translation>
     </message>
     <message>
         <location filename="../history.ui" line="47"/>
         <source>Remove &amp;All</source>
-        <translation>ï¿½Æ³ï¿½È«ï¿½ï¿½(&amp;A)</translation>
+        <translation>ÒÆ³ýÈ«²¿(&amp;A)</translation>
     </message>
 </context>
 <context>
     <name>HistoryMenu</name>
     <message>
-        <location filename="../history.cpp" line="651"/>
+        <location filename="../history.cpp" line="648"/>
         <source>Show All History</source>
-        <translation>ï¿½ï¿½Ê¾È«ï¿½ï¿½ï¿½ï¿½Ê·</translation>
+        <translation>ÏÔÊ¾È«²¿ÀúÊ·</translation>
     </message>
     <message>
-        <location filename="../history.cpp" line="655"/>
+        <location filename="../history.cpp" line="652"/>
         <source>Clear History</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê·</translation>
+        <translation>Çå³ýÀúÊ·</translation>
     </message>
 </context>
 <context>
     <name>HistoryModel</name>
     <message>
-        <location filename="../history.cpp" line="424"/>
+        <location filename="../history.cpp" line="421"/>
         <source>Title</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>±êÌâ</translation>
     </message>
     <message>
-        <location filename="../history.cpp" line="425"/>
+        <location filename="../history.cpp" line="422"/>
         <source>Address</source>
-        <translation>ï¿½ï¿½Ö·</translation>
+        <translation>µØÖ·</translation>
     </message>
 </context>
 <context>
     <name>HistoryTreeModel</name>
     <message>
-        <location filename="../history.cpp" line="1058"/>
+        <location filename="../history.cpp" line="1055"/>
         <source>Earlier Today</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð©Ê±ï¿½ï¿½</translation>
+        <translation>½ñÌìÔçÐ©Ê±ºò</translation>
     </message>
     <message>
         <location filename="../history.cpp" line="1059"/>
         <source>%1 items</source>
-        <translation type="obsolete">%1 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../history.cpp" line="1062"/>
-        <source>%n item(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-        </translation>
+        <translation>%1 ÌõÄÚÈÝ</translation>
     </message>
 </context>
 <context>
@@ -1130,15 +991,15 @@ Do you want to reload all pages?</source>
         <location filename="../networkaccessmanager.cpp" line="138"/>
         <source>&lt;qt&gt;Enter username and password for &quot;%1&quot; at 
 %2&lt;/qt&gt;</source>
-        <translation type="obsolete">&lt;qt&gt;ï¿½ï¿½ï¿½ï¿½ &quot;%1&quot; ï¿½ï¿½ %2 
-ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&lt;/qt&gt;</translation>
+        <translation>&lt;qt&gt;ÊäÈë &quot;%1&quot; ÓÚ %2 
+µÄÓÃ»§ÃûºÍÃÜÂë&lt;/qt&gt;</translation>
     </message>
     <message>
         <location filename="../networkaccessmanager.cpp" line="162"/>
         <source>&lt;qt&gt;Connect to proxy &quot;%1&quot; 
 using:&lt;/qt&gt;</source>
-        <translation type="obsolete">&lt;qt&gt;Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½Ê½ï¿½ï¿½Ó´ï¿½ï¿½ï¿½ 
-&quot;%1&quot;ï¿½ï¿½&lt;/qt&gt;</translation>
+        <translation>&lt;qt&gt;Ê¹ÓÃÈçÏÂ·½Ê½Á¬½Ó´úÀí 
+&quot;%1&quot;£º&lt;/qt&gt;</translation>
     </message>
     <message>
         <location filename="../networkaccessmanager.cpp" line="199"/>
@@ -1149,28 +1010,18 @@ using:&lt;/qt&gt;</source>
 %2
 
 Do you want to ignore these errors?</source>
-        <translation>SSLï¿½ï¿½ï¿½ï¿½:
+        <translation>SSL´íÎó:
 
 %1
 
 %2
 
-ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
+ÄúÒªºöÂÔÕâÐ©´íÎóÂð£¿</translation>
     </message>
     <message>
         <location filename="../networkaccessmanager.cpp" line="206"/>
         <source>Do you want to accept all these certificates?</source>
-        <translation>ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½È«ï¿½ï¿½ï¿½ï¿½Ð©ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½ï¿½</translation>
-    </message>
-    <message>
-        <location filename="../networkaccessmanager.cpp" line="138"/>
-        <source>&lt;qt&gt;Enter username and password for &quot;%1&quot; at %2&lt;/qt&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../networkaccessmanager.cpp" line="162"/>
-        <source>&lt;qt&gt;Connect to proxy &quot;%1&quot; using:&lt;/qt&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>ÄúÒª½ÓÊÜÈ«²¿ÕâÐ©ÈÏÖ¤Âð£¿</translation>
     </message>
 </context>
 <context>
@@ -1178,7 +1029,7 @@ Do you want to ignore these errors?</source>
     <message>
         <location filename="../passworddialog.ui" line="13"/>
         <source>Authentication Required</source>
-        <translation>ï¿½ï¿½Òªï¿½ï¿½Ö¤</translation>
+        <translation>ÐèÒªÈÏÖ¤</translation>
     </message>
     <message>
         <location filename="../passworddialog.ui" line="21"/>
@@ -1193,12 +1044,12 @@ Do you want to ignore these errors?</source>
     <message>
         <location filename="../passworddialog.ui" line="43"/>
         <source>Username:</source>
-        <translation>ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
+	<translatio>ÓÃ»§Ãû£º</translation>
     </message>
     <message>
         <location filename="../passworddialog.ui" line="53"/>
         <source>Password:</source>
-        <translation>ï¿½ï¿½ï¿½ë£º</translation>
+        <translation>ÃÜÂë£º</translation>
     </message>
 </context>
 <context>
@@ -1206,7 +1057,7 @@ Do you want to ignore these errors?</source>
     <message>
         <location filename="../proxy.ui" line="13"/>
         <source>Proxy Authentication</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¤</translation>
+        <translation>´úÀíÈÏÖ¤</translation>
     </message>
     <message>
         <location filename="../proxy.ui" line="19"/>
@@ -1216,17 +1067,17 @@ Do you want to ignore these errors?</source>
     <message>
         <location filename="../proxy.ui" line="26"/>
         <source>Connect to proxy</source>
-        <translation>ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>Á¬½Óµ½´úÀí</translation>
     </message>
     <message>
         <location filename="../proxy.ui" line="36"/>
         <source>Username:</source>
-        <translation>ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ÓÃ»§Ãû£º</translation>
     </message>
     <message>
         <location filename="../proxy.ui" line="46"/>
         <source>Password:</source>
-        <translation>ï¿½ï¿½ï¿½ë£º</translation>
+        <translation>ÃÜÂë£º</translation>
     </message>
 </context>
 <context>
@@ -1234,12 +1085,12 @@ Do you want to ignore these errors?</source>
     <message>
         <location filename="../xbel.cpp" line="165"/>
         <source>The file is not an XBEL version 1.0 file.</source>
-        <translation>ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½XBEL 1.0ï¿½æ¡£</translation>
+        <translation>´ËÎÄ¼þ·ÇXBEL 1.0°æ¡£</translation>
     </message>
     <message>
         <location filename="../xbel.cpp" line="263"/>
         <source>Unknown title</source>
-        <translation>Î´Öªï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>Î´Öª±êÌâ</translation>
     </message>
 </context>
 <context>
@@ -1252,7 +1103,7 @@ Do you want to ignore these errors?</source>
     <message>
         <location filename="../searchbanner.ui" line="50"/>
         <source>TextLabel</source>
-        <translation>ï¿½ï¿½ï¿½Ö±ï¿½Ç©</translation>
+        <translation>ÎÄ×Ö±êÇ©</translation>
     </message>
     <message>
         <location filename="../searchbanner.ui" line="57"/>
@@ -1267,15 +1118,15 @@ Do you want to ignore these errors?</source>
     <message>
         <location filename="../searchbanner.ui" line="74"/>
         <source>Done</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>Íê³É</translation>
     </message>
 </context>
 <context>
     <name>SearchLineEdit</name>
     <message>
-        <location filename="../searchlineedit.cpp" line="193"/>
+        <location filename="../searchlineedit.cpp" line="191"/>
         <source>Search</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ËÑË÷</translation>
     </message>
 </context>
 <context>
@@ -1283,378 +1134,323 @@ Do you want to ignore these errors?</source>
     <message>
         <location filename="../settings.ui" line="13"/>
         <source>Settings</source>
-        <translation>ï¿½è¶¨</translation>
+        <translation>Éè¶¨</translation>
     </message>
     <message>
         <location filename="../settings.ui" line="33"/>
         <source>General</source>
-        <translation>Í¨ï¿½ï¿½</translation>
+        <translation>Í¨ÓÃ</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="68"/>
+        <location filename="../settings.ui" line="52"/>
         <source>Home:</source>
-        <translation>ï¿½ï¿½Ò³ï¿½ï¿½</translation>
+        <translation>Ö÷Ò³£º</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="81"/>
+        <location filename="../settings.ui" line="65"/>
         <source>Set to current page</source>
-        <translation>Ê¹ï¿½Ãµï¿½Ç°Ò³ï¿½ï¿½</translation>
+        <translation>Ê¹ÓÃµ±Ç°Ò³Ãæ</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="101"/>
+        <location filename="../settings.ui" line="72"/>
         <source>Remove history items:</source>
-        <translation>ï¿½Æ³ï¿½ï¿½ï¿½Ê·ï¿½ï¿½ï¿½Ý£ï¿½</translation>
+        <translation>ÒÆ³ýÀúÊ·ÄÚÈÝ£º</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="112"/>
+        <location filename="../settings.ui" line="83"/>
         <source>After one day</source>
-        <translation>Ò»ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>Ò»Ììºó</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="117"/>
+        <location filename="../settings.ui" line="88"/>
         <source>After one week</source>
-        <translation>Ò»ï¿½Üºï¿½</translation>
+        <translation>Ò»ÖÜºó</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="122"/>
+        <location filename="../settings.ui" line="93"/>
         <source>After two weeks</source>
-        <translation>ï¿½ï¿½Üºï¿½</translation>
+        <translation>Á½ÖÜºó</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="127"/>
+        <location filename="../settings.ui" line="98"/>
         <source>After one month</source>
-        <translation>Ò»ï¿½ï¿½ï¿½Âºï¿½</translation>
+        <translation>Ò»¸öÔÂºó</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="132"/>
+        <location filename="../settings.ui" line="103"/>
         <source>After one year</source>
-        <translation>Ò»ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>Ò»Äêºó</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="137"/>
+        <location filename="../settings.ui" line="108"/>
         <source>Manually</source>
-        <translation>ï¿½Ö¶ï¿½</translation>
+        <translation>ÊÖ¶¯</translation>
     </message>
     <message>
         <location filename="src/settings.ui" line="124"/>
         <source>Save downloads to:</source>
-        <translation type="obsolete">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½</translation>
+        <translation type="obsolete">±£´æÏÂÔØµ½£º</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="150"/>
+        <location filename="../settings.ui" line="116"/>
         <source>Open links from applications:</source>
-        <translation>ï¿½Ú³ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½Ó£ï¿½</translation>
+        <translation>ÔÚ³ÌÐòÖÐ´ò¿ªÁ´½Ó£º</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="161"/>
+        <location filename="../settings.ui" line="127"/>
         <source>In a tab in the current window</source>
-        <translation>ï¿½Úµï¿½Ç°ï¿½ï¿½ï¿½ÚµÄ±ï¿½Ç©ï¿½ï¿½</translation>
+        <translation>ÔÚµ±Ç°´°¿ÚµÄ±êÇ©ÖÐ</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="166"/>
+        <location filename="../settings.ui" line="132"/>
         <source>In a new window</source>
-        <translation>ï¿½ï¿½ï¿½Â´ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ÔÚÐÂ´°¿ÚÖÐ</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="222"/>
+        <location filename="../settings.ui" line="196"/>
         <source>Appearance</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>Íâ¹Û</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="228"/>
+        <location filename="../settings.ui" line="202"/>
         <source>Standard font:</source>
-        <translation>ï¿½ï¿½×¼ï¿½ï¿½ï¿½å£º</translation>
+        <translation>±ê×¼×ÖÌå£º</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="247"/>
+        <location filename="../settings.ui" line="221"/>
         <source>Times 16</source>
         <translation>Times 16</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="287"/>
+        <location filename="../settings.ui" line="261"/>
         <source>Select...</source>
-        <translation>Ñ¡ï¿½ï¿½...</translation>
+        <translation>Ñ¡Ôñ...</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="264"/>
+        <location filename="../settings.ui" line="238"/>
         <source>Fixed-width font:</source>
-        <translation>ï¿½È¿ï¿½ï¿½ï¿½ï¿½å£º</translation>
+        <translation>µÈ¿í×ÖÌå£º</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="277"/>
+        <location filename="../settings.ui" line="251"/>
         <source>Courier 13</source>
         <translation>Courier 13</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="308"/>
+        <location filename="../settings.ui" line="282"/>
         <source>Privacy</source>
-        <translation>ï¿½ï¿½Ë½</translation>
+        <translation>ÒþË½</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="314"/>
+        <location filename="../settings.ui" line="288"/>
         <source>Web Content</source>
-        <translation>Webï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>WebÄÚÈÝ</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="320"/>
+        <location filename="../settings.ui" line="294"/>
         <source>Enable Plugins</source>
-        <translation>ï¿½ï¿½ï¿½Ã²ï¿½ï¿½ï¿½</translation>
+        <translation>ÆôÓÃ²å¼þ</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="330"/>
+        <location filename="../settings.ui" line="304"/>
         <source>Enable Javascript</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½JavaScript</translation>
+        <translation>ÆôÓÃJavaScript</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="353"/>
+        <location filename="../settings.ui" line="317"/>
         <source>Cookies</source>
         <translation>Cookies</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="359"/>
+        <location filename="../settings.ui" line="323"/>
         <source>Accept Cookies:</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½cookiesï¿½ï¿½</translation>
+        <translation>½ÓÊÜcookies£º</translation>
+    </message>
+    <message>
+        <location filename="../settings.ui" line="334"/>
+        <source>Always</source>
+        <translation>ÓÀÔ¶</translation>
+    </message>
+    <message>
+        <location filename="../settings.ui" line="339"/>
+        <source>Never</source>
+        <translation>ÓÀ²»</translation>
+    </message>
+    <message>
+        <location filename="../settings.ui" line="344"/>
+        <source>Only from sites you navigate to</source>
+        <translation>Ö»´ÓÕâÐ©Äã·ÃÎÊµÄ</translation>
+    </message>
+    <message>
+        <location filename="../settings.ui" line="352"/>
+        <source>Exceptions...</source>
+        <translation>ÀýÍâ...</translation>
+    </message>
+    <message>
+        <location filename="../settings.ui" line="359"/>
+        <source>Keep until:</source>
+        <translation>±£´æµ½£º</translation>
     </message>
     <message>
         <location filename="../settings.ui" line="370"/>
-        <source>Always</source>
-        <translation>ï¿½ï¿½Ô¶</translation>
+        <source>They expire</source>
+        <translation>¹ýÆÚ</translation>
     </message>
     <message>
         <location filename="../settings.ui" line="375"/>
-        <source>Never</source>
-        <translation>ï¿½ï¿½ï¿½</translation>
+        <source>I exit the application</source>
+        <translation>ÎÒÍË³ö³ÌÐò</translation>
     </message>
     <message>
         <location filename="../settings.ui" line="380"/>
-        <source>Only from sites you navigate to</source>
-        <translation>Ö»ï¿½ï¿½ï¿½ï¿½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½</translation>
+        <source>At most 90 days</source>
+        <translation>×î¶à90Ìì</translation>
     </message>
     <message>
         <location filename="../settings.ui" line="388"/>
-        <source>Exceptions...</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½...</translation>
-    </message>
-    <message>
-        <location filename="../settings.ui" line="395"/>
-        <source>Keep until:</source>
-        <translation>ï¿½ï¿½ï¿½æµ½ï¿½ï¿½</translation>
-    </message>
-    <message>
-        <location filename="../settings.ui" line="406"/>
-        <source>They expire</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
-    </message>
-    <message>
-        <location filename="../settings.ui" line="411"/>
-        <source>I exit the application</source>
-        <translation>ï¿½ï¿½ï¿½Ë³ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
-    </message>
-    <message>
-        <location filename="../settings.ui" line="416"/>
-        <source>At most 90 days</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½90ï¿½ï¿½</translation>
-    </message>
-    <message>
-        <location filename="../settings.ui" line="424"/>
         <source>Cookies...</source>
         <translation>Cookies...</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="485"/>
+        <location filename="../settings.ui" line="412"/>
         <source>Proxy</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>´úÀí</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="491"/>
+        <location filename="../settings.ui" line="418"/>
         <source>Enable proxy</source>
-        <translation>ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½</translation>
+        <translation>ÆôÓÃ´úÀí</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="500"/>
+        <location filename="../settings.ui" line="427"/>
         <source>Type:</source>
-        <translation>ï¿½ï¿½ï¿½Í£ï¿½</translation>
+        <translation>ÀàÐÍ£º</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="511"/>
+        <location filename="../settings.ui" line="438"/>
         <source>Socks5</source>
         <translation>Socks5</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="516"/>
+        <location filename="../settings.ui" line="443"/>
         <source>Http</source>
         <translation>Http</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="524"/>
+        <location filename="../settings.ui" line="451"/>
         <source>Host:</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>Ö÷»ú£º</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="537"/>
+        <location filename="../settings.ui" line="464"/>
         <source>Port:</source>
-        <translation>ï¿½Ë¿Ú£ï¿½</translation>
+        <translation>¶Ë¿Ú£º</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="570"/>
+        <location filename="../settings.ui" line="497"/>
         <source>User Name:</source>
-        <translation>ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ÓÃ»§Ãû£º</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="583"/>
+        <location filename="../settings.ui" line="510"/>
         <source>Password:</source>
-        <translation>ï¿½ï¿½ï¿½ë£º</translation>
+        <translation>ÃÜÂë£º</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="617"/>
+        <location filename="../settings.ui" line="544"/>
         <source>Advanced</source>
-        <translation>ï¿½ß¼ï¿½</translation>
+        <translation>¸ß¼¶</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="623"/>
+        <location filename="../settings.ui" line="550"/>
         <source>Style Sheet:</source>
-        <translation>ï¿½ï¿½Ê½ï¿½ï¿½</translation>
+        <translation>ÑùÊ½±í£º</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="174"/>
+        <location filename="../settings.ui" line="153"/>
         <source>Downloads</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ÏÂÔØ</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="180"/>
+        <location filename="../settings.ui" line="159"/>
         <source>Ask for a destination each time</source>
-        <translation>Ã¿ï¿½Î¶ï¿½Ñ¯ï¿½ï¿½Ä¿ï¿½Äµï¿½</translation>
+        <translation>Ã¿´Î¶¼Ñ¯ÎÊÄ¿µÄµØ</translation>
     </message>
     <message>
-        <location filename="../settings.ui" line="189"/>
+        <location filename="../settings.ui" line="168"/>
         <source>Use this destination:</source>
-        <translation>Ê¹ï¿½Ã´ï¿½Ä¿ï¿½ÄµØ£ï¿½</translation>
-    </message>
-    <message>
-        <location filename="../settings.ui" line="39"/>
-        <source>On startup:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../settings.ui" line="50"/>
-        <source>Show my home page</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../settings.ui" line="55"/>
-        <source>Show a blank page</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../settings.ui" line="60"/>
-        <source>Restore windows and tabs from last time</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../settings.ui" line="142"/>
-        <source>On application exit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../settings.ui" line="340"/>
-        <source>Enable Images</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../settings.ui" line="448"/>
-        <source>Tabs</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../settings.ui" line="454"/>
-        <source>Select tabs and windows as they are created</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../settings.ui" line="461"/>
-        <source>Confirm when closing multiple tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Ê¹ÓÃ´ËÄ¿µÄµØ£º</translation>
     </message>
 </context>
 <context>
     <name>TabBar</name>
     <message>
-        <location filename="../tabbar.cpp" line="162"/>
+        <location filename="../tabwidget.cpp" line="120"/>
         <source>New &amp;Tab</source>
-        <translation>ï¿½Â½ï¿½ï¿½ï¿½Ç©(&amp;T)</translation>
+        <translation>ÐÂ½¨±êÇ©(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../tabbar.cpp" line="165"/>
+        <location filename="../tabwidget.cpp" line="123"/>
         <source>Duplicate Tab</source>
-        <translation>ï¿½ï¿½ï¿½Æ±ï¿½Ç©</translation>
+        <translation>¸´ÖÆ±êÇ©</translation>
     </message>
     <message>
-        <location filename="../tabbar.cpp" line="171"/>
+        <location filename="../tabwidget.cpp" line="129"/>
         <source>&amp;Close Tab</source>
-        <translation>ï¿½Ø±Õ±ï¿½Ç©(&amp;C)</translation>
+        <translation>¹Ø±Õ±êÇ©(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../tabbar.cpp" line="175"/>
+        <location filename="../tabwidget.cpp" line="133"/>
         <source>Close &amp;Other Tabs</source>
-        <translation>ï¿½Ø±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©(&amp;O)</translation>
+        <translation>¹Ø±ÕÆäËü±êÇ©(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../tabbar.cpp" line="181"/>
+        <location filename="../tabwidget.cpp" line="139"/>
         <source>Reload Tab</source>
-        <translation>ï¿½ï¿½ï¿½Ø±ï¿½Ç©</translation>
+        <translation>ÖØÔØ±êÇ©</translation>
     </message>
     <message>
-        <location filename="../tabbar.cpp" line="187"/>
+        <location filename="../tabwidget.cpp" line="145"/>
         <source>Reload All Tabs</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½Ç©</translation>
-    </message>
-    <message>
-        <location filename="../tabbar.cpp" line="144"/>
-        <source>Show Tab Bar</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../tabbar.cpp" line="144"/>
-        <source>Hide Tab Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>ÖØÐÂÔØÈëËùÓÐ±êÇ©</translation>
     </message>
 </context>
 <context>
     <name>TabWidget</name>
     <message>
-        <location filename="../tabwidget.cpp" line="122"/>
+        <location filename="../tabwidget.cpp" line="277"/>
         <source>New &amp;Tab</source>
-        <translation>ï¿½Â½ï¿½ï¿½ï¿½Ç©(&amp;T)</translation>
+        <translation>ÐÂ½¨±êÇ©(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../tabwidget.cpp" line="126"/>
+        <location filename="../tabwidget.cpp" line="282"/>
         <source>&amp;Close Tab</source>
-        <translation>ï¿½Ø±Õ±ï¿½Ç©(&amp;C)</translation>
+        <translation>¹Ø±Õ±êÇ©(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../tabwidget.cpp" line="138"/>
+        <location filename="../tabwidget.cpp" line="287"/>
         <source>Show Next Tab</source>
-        <translation>ï¿½ï¿½Ê¾ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ç©</translation>
+        <translation>ÏÔÊ¾ÏÂÒ»¸ö±êÇ©</translation>
     </message>
     <message>
-        <location filename="../tabwidget.cpp" line="148"/>
+        <location filename="../tabwidget.cpp" line="297"/>
         <source>Show Previous Tab</source>
-        <translation>ï¿½ï¿½Ê¾Ç°Ò»ï¿½ï¿½ï¿½ï¿½Ç©</translation>
+        <translation>ÏÔÊ¾Ç°Ò»¸ö±êÇ©</translation>
     </message>
     <message>
-        <location filename="../tabwidget.cpp" line="163"/>
+        <location filename="../tabwidget.cpp" line="312"/>
         <source>Recently Closed Tabs</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½Ø±ÕµÄ±ï¿½Ç©</translation>
+        <translation>×î½ü¹Ø±ÕµÄ±êÇ©</translation>
     </message>
     <message>
-        <location filename="../tabwidget.cpp" line="454"/>
+        <location filename="../tabwidget.cpp" line="563"/>
         <source>(Untitled)</source>
-        <translation>ï¿½Þ±ï¿½ï¿½ï¿½</translation>
+        <translation>ÎÞ±êÌâ</translation>
     </message>
     <message>
-        <location filename="../tabwidget.cpp" line="562"/>
+        <location filename="../tabwidget.cpp" line="647"/>
         <source>Do you really want to close this page?</source>
-        <translation>ï¿½ï¿½È·ï¿½ï¿½Òªï¿½Ø±Õ´ï¿½Ò³ï¿½ï¿½</translation>
+        <translation>ÄúÈ·¶¨Òª¹Ø±Õ´ËÒ³£¿</translation>
     </message>
     <message>
         <location filename="../tabwidget.cpp" line="649"/>
@@ -1662,15 +1458,9 @@ Do you want to ignore these errors?</source>
 modification.
 Do you really want to close this page?
 </source>
-        <translation type="obsolete">ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½Þ¸ï¿½ï¿½ï¿½Ò³ï¿½æ£¬ï¿½Ø±Õ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸Ä¶ï¿½Ê§ï¿½ï¿½ï¿½ï¿½È·ï¿½ï¿½Òªï¿½Ø±Õ´ï¿½Ò³ï¿½ï¿½ï¿½ï¿½
+        
+<translation>ÄúÒÑ¾­ÐÞ¸ÄÁËÒ³Ãæ£¬¹Ø±Õ½«µ¼ÖÂÄúµÄÐÞ¸Ä¶ªÊ§¡£ÄúÈ·¶¨Òª¹Ø±Õ´ËÒ³Âð£¿
 </translation>
-    </message>
-    <message>
-        <location filename="../tabwidget.cpp" line="564"/>
-        <source>You have modified this page and when closing it you would lose the modification.
-Do you really want to close this page?
-</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1683,25 +1473,25 @@ Do you really want to close this page?
     <message>
         <location filename="../toolbarsearch.cpp" line="153"/>
         <source>No Recent Searches</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ÎÞ×î½üµÄËÑË÷</translation>
     </message>
     <message>
         <location filename="../toolbarsearch.cpp" line="157"/>
         <source>Recent Searches</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>×î½üµÄËÑË÷</translation>
     </message>
     <message>
         <location filename="../toolbarsearch.cpp" line="164"/>
         <source>Clear Recent Searches</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>Çå³ý×î½üµÄËÑË÷</translation>
     </message>
 </context>
 <context>
     <name>WebPage</name>
     <message>
-        <location filename="../webview.cpp" line="195"/>
+        <location filename="../webview.cpp" line="173"/>
         <source>Error loading page: %1</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½Ò³ï¿½æ£º %1 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>ÔØÈëÒ³Ãæ£º %1 ·¢Éú´íÎó</translation>
     </message>
 </context>
 <context>
@@ -1709,70 +1499,66 @@ Do you really want to close this page?
     <message>
         <location filename="webview.cpp" line="230"/>
         <source>Open in New Tab</source>
-        <translation type="obsolete">ï¿½ï¿½ï¿½Â±ï¿½Ç©ï¿½Ð´ï¿½ï¿½ï¿½</translation>
+        <translation>ÔÚÐÂ±êÇ©ÖÐ´ò¿ª</translation>
     </message>
     <message>
-        <location filename="../webview.cpp" line="255"/>
+        <location filename="../webview.cpp" line="233"/>
         <source>Open in New &amp;Window</source>
-        <translation>ï¿½ï¿½ï¿½Â´ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½(&amp;W)</translation>
+        <translation>ÔÚÐÂ´°¿ÚÖÐ´ò¿ª(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../webview.cpp" line="256"/>
+        <location filename="../webview.cpp" line="234"/>
         <source>Open in New &amp;Tab</source>
-        <translation>ï¿½ï¿½ï¿½Â±ï¿½Ç©ï¿½Ð´ï¿½ï¿½ï¿½(&amp;T)</translation>
+        <translation>ÔÚÐÂ±êÇ©ÖÐ´ò¿ª(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../webview.cpp" line="258"/>
+        <location filename="../webview.cpp" line="236"/>
         <source>Save Lin&amp;k</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(&amp;k)</translation>
+        <translation>±£´æÁ´½Ó(&amp;k)</translation>
     </message>
     <message>
-        <location filename="../webview.cpp" line="259"/>
+        <location filename="../webview.cpp" line="237"/>
         <source>&amp;Bookmark This Link</source>
-        <translation>ï¿½ï¿½ï¿½Ó´ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½Ç©(&amp;B)</translation>
+        <translation>Ìí¼Ó´ËÁ´½Óµ½ÊéÇ©(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../webview.cpp" line="261"/>
+        <location filename="../webview.cpp" line="239"/>
         <source>&amp;Copy Link Location</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(&amp;C)</translation>
+        <translation>¸´ÖÆÁ´½Ó(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../webview.cpp" line="269"/>
+        <location filename="../webview.cpp" line="247"/>
         <source>Open Image in New &amp;Window</source>
-        <translation>ï¿½ï¿½ï¿½Â´ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½Í¼Æ¬(&amp;W)</translation>
+        <translation>ÔÚÐÂ´°¿ÚÖÐ´ò¿ªÍ¼Æ¬(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../webview.cpp" line="270"/>
+        <location filename="../webview.cpp" line="248"/>
         <source>Open Image in New &amp;Tab</source>
-        <translation>ï¿½ï¿½ï¿½Â±ï¿½Ç©ï¿½Ð´ï¿½ï¿½ï¿½Í¼Æ¬(&amp;T)</translation>
+        <translation>ÔÚÐÂ±êÇ©ÖÐ´ò¿ªÍ¼Æ¬(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../webview.cpp" line="272"/>
+        <location filename="../webview.cpp" line="250"/>
         <source>&amp;Save Image</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½Í¼Æ¬(&amp;S)</translation>
+        <translation>±£´æÍ¼Æ¬(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../webview.cpp" line="273"/>
+        <location filename="../webview.cpp" line="251"/>
         <source>&amp;Copy Image</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½Í¼Æ¬(&amp;C)</translation>
+        <translation>¸´ÖÆÍ¼Æ¬(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../webview.cpp" line="274"/>
+        <location filename="../webview.cpp" line="252"/>
         <source>C&amp;opy Image Location</source>
-        <translation>ï¿½ï¿½ï¿½ï¿½Í¼Æ¬ï¿½ï¿½Ö·(&amp;o)</translation>
-    </message>
-    <message>
-        <location filename="../webview.cpp" line="413"/>
-        <source>Loading...</source>
-        <translation type="unfinished"></translation>
+        <translation>¸´ÖÆÍ¼Æ¬µØÖ·(&amp;o)</translation>
     </message>
 </context>
 <context>
     <name>WebViewSearch</name>
     <message>
-        <location filename="../webviewsearch.cpp" line="119"/>
+        <location filename="../webviewsearch.cpp" line="121"/>
         <source>Not Found</source>
-        <translation>Î´ï¿½ï¿½ï¿½ï¿½</translation>
+        <translation>Î´·¢ÏÖ</translation>
     </message>
 </context>
 </TS>
+
